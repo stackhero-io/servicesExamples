@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "rethinkdbdash": "^2.3.31"
+  }
+}
