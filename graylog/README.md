@@ -14,6 +14,7 @@ For this example, we'll create a raw UDP input.<br />
 On Graylog interface, go to "System" then "Inputs".<br />
 Select "Raw/Plaintext UDP" and click on "Launch new input".<br />
 Configure your input like this and valid the form:
+- Node: select your node
 - Title: RAW UDP
 - Port: 5555
 
