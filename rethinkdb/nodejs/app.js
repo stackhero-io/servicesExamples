@@ -1,8 +1,11 @@
 const r = require('rethinkdbdash')({
-  host: 'XXXXXX.stackhero-network.com', // This is the host you'll find on Stackhero console
+  host: 'XXXXXX.stackhero-network.com', // This is the host you'll find on Stackhero's console
   port: 29015,
   user: 'admin',
-  password: 'XXXXXXXXXXXXX', // This is the admin password you've defined on Stackhero console
+  password: 'XXXXXXXXXXXXX', // This is the RethinkDB admin password
+  // Note: it's not the password you use to connect to the web interface!
+  // If you haven't defined it yet, go to the web ui and define it like this:
+  // r.db('rethinkdb').table('users').get('admin').update({ password: '<youSecuredPassword>' })
   ssl: true,
   silent: true
 });
