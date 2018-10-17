@@ -52,8 +52,4 @@ process.on('uncaughtException', function(err) {
   logger.log(err, {
     type: 'uncaughtException'
   });
-}
-
-
-INPUT:
-GELF UDP
+});
