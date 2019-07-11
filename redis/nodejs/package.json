@@ -1,9 +1,0 @@
-{
-  "name": "nodejs",
-  "version": "1.0.0",
-  "main": "app.js",
-  "license": "MIT",
-  "dependencies": {
-    "ioredis": "^4.2.0"
-  }
-}
